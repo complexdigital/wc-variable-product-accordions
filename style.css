@@ -1,0 +1,17 @@
+/**
+* Add this code to your style.css file
+*/
+
+#wc_variations__accordion button.accordion{
+    width: 100%;
+}
+#wc_variations__accordion button.accordion.step_complete:after{
+    /* You will need FontAwesome 5 for this */
+    content: "\f00c";
+    font-family: 'Font Awesome 5 Free';
+    margin-left: 10px;
+}
+#wc_variations__accordion .variation__section{
+    display: none;
+    padding: 25px 20px;
+}
